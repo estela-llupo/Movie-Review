@@ -1,0 +1,81 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 365px;
+}
+
+.link {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.formContainer {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #0000001a;
+    width: 350px;
+    margin: 20px 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.inputGroup {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+}
+
+.errorText {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.button {
+    width: 95%;
+    padding: 8px;
+    color: white;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.button.active {
+    background-color: #1aeb2b;
+    cursor: pointer;
+}
+
+.button.disabled {
+    background-color: green;
+    cursor: not-allowed;
+}

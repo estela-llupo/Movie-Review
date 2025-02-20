@@ -1,0 +1,29 @@
+.nav {
+  margin-bottom: 20px;
+  padding: 10px 0;
+  border-bottom: 2px solid #ddd;
+  display: inline-block;
+  width: 525px;
+  margin-top: 40px;
+  margin-left: 405px;
+  font-size: 1.2rem;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #165098;
+  font-weight: bold;
+  margin-right: 10px;
+  transition: text-decoration 0.3s ease;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+  color: #3852d7
+}
+
+.separator {
+  margin: 0 10px;
+  color: #333;
+  font-weight: bold;
+}
