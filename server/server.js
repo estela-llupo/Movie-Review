@@ -9,7 +9,7 @@ require("./config/mongoose.config");
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-require("./routes/team.routes")(app);
+require("./routes/movie.routes")(app);
 
 app.listen(port, () => {
     console.log(`Listening on port ${port})`)});
